@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "abc@gmail.com",
+      "password": "12345678",
+      "name": "Адміністратор"
+    },
+    {
+      "email": "123@gmail.com",
+      "password": "12345678",
+      "name": "Client",
+      "id": 2
+    }
+  ],
+  "bill": {
+    "value": 96400,
+    "currency": "UAH"
+  },
+  "categories": [
+    {
+      "name": "Дім",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Харчування",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Авто",
+      "capacity": 7000
+    },
+    {
+      "name": "Нове",
+      "capacity": 1232,
+      "id": 4
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "02.01.2023 19:49:02",
+      "description": "Подарунок що включав продукти"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "04.01.2023 19:49:02",
+      "description": "Купив машину для миття посуду"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "06.01.2023 14:00:48",
+      "id": 3,
+      "description": "Похід в магазин з балами. Безкоштовне харчування"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "08.01.2023 14:00:58",
+      "id": 4,
+      "description": "Купівля всього необхідного на тиждень"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "09.01.2023 14:01:58",
+      "id": 5,
+      "description": "Заправка + ТО"
+    },
+    {
+      "type": "income",
+      "amount": 100,
+      "category": 4,
+      "date": "11.01.2023 20:02:33",
+      "description": "Їжа",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 3000,
+      "category": 3,
+      "date": "13.01.2023 21:44:58",
+      "description": "Бензин",
+      "id": 7
+    },
+    {
+      "type": "outcome",
+      "amount": 700,
+      "category": 4,
+      "date": "15.01.2023 21:45:49",
+      "description": "Їжа",
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<div class="title-block">
+  <h3 class="title pull-left">
+    Сторінка рахунку <span class="sparkline bar"></span>
+  </h3>
+  
+</div>
+<section class="section">
+  <div class="row text-center" *ngIf="!isLoaded">
+
+    <wfm-loader></wfm-loader>
+    
+  </div>
+  <div class="row">
+    <wfm-bill-card [bill]="bill" [currency]="currency"></wfm-bill-card>
+    <wfm-currency-card [currency]="currency"></wfm-currency-card>
+  </div>
+</section>
